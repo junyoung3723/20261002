@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>기본 홈</title>
+<style>
+* { box-sizing: border-box; margin: 0; }
+body {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #243024;
+  background-color: #eef3ec;
+  background-image:
+    radial-gradient(#b7c5b4 0.7px, transparent 0.8px),
+    radial-gradient(#ffffff 0.7px, transparent 0.8px);
+  background-size: 12px 12px, 17px 17px;
+  background-position: 0 0, 5px 8px;
+}
+header { padding: 22px 10%; background: #2f5d50; color: white; }
+main { max-width: 900px; margin: 90px auto; padding: 42px; }
+.card {
+  padding: 38px;
+  text-align: center;
+  border-radius: 18px;
+  background: rgba(255,255,255,.78);
+  box-shadow: 0 10px 30px rgba(35,65,45,.18);
+  backdrop-filter: blur(4px);
+}
+h1 { margin-bottom: 16px; font-size: 2.3rem; }
+p { line-height: 1.7; }
+button { margin-top: 25px; padding: 12px 22px; border: 0; border-radius: 9px; background: #4f826a; color: white; cursor: pointer; }
+button:hover { background: #35604d; }
+</style>
+</head>
+<body><header><h2>GREEN HOME</h2></header>
+<main><section class="card"><h1>환영합니다</h1><p>자연스러운 텍스처가 적용된 기본 홈 화면입니다.</p><button>시작하기</button></section></main>
+</body>
+</html>
